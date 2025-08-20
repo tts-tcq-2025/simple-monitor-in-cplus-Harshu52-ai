@@ -11,6 +11,7 @@ bool Temperature(float temperature)
     return true;
 }
 
+
 bool SOC(float soc)
 {
     if(soc < 20 || soc > 80) {
